@@ -1,0 +1,80 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Ryan Algar'
+theme = 'hello-friend-ng'
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  #dateformNumTime = "2006-01-02 15:04"
+  dateformNumTime = "2006-01-02"
+
+  # Subtitle for home
+  homeSubtitle = "Linux Systems Engineer | DevOps Advocate | Hobbyist Graphics Programmer"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "My portfolio and blog"
+  keywords = "portfolio, blog"
+  images = [""]
+
+  [params.logo]
+    logoText = "cd /home/ralgar/"
+    logoHomeLink = "/"
+    logoCursorPathname = true
+
+  [params.footer]
+    trademark = false
+    rss = false
+    copyright = false
+    author = false
+
+    topText = ["Copyright © 2023 Ryan Algar"]
+    bottomText = [
+      ""
+    ]
+
+  # Social icons
+  [[params.social]]
+    name = "email"
+    url  = "mailto:me@ralgar.dev"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/ralgar"
+
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/ralgar"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/ryan-algar/"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about.md"
+
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
