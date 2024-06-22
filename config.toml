@@ -61,7 +61,7 @@ PygmentsStyle = "monokai"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/ryan-algar/"
+    url  = "https://www.linkedin.com/in/ryanalgar/"
 
 [taxonomies]
     category = "blog"
