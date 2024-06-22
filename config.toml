@@ -72,7 +72,7 @@ PygmentsStyle = "monokai"
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "/about.md"
+    url        = "/about"
 
   [[menu.main]]
     identifier = "posts"
