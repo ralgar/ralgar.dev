@@ -1,2 +1,5 @@
 # Production build
 /public
+
+# Dev build files
+/resources
