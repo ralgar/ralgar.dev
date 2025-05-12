@@ -13,7 +13,7 @@ tags:
 
 ## Introduction
 
-A **reflection attack** is a type of **Denial-of-Service (DoS)** attack in
+A *reflection attack* is a type of *Denial-of-Service (DoS)* attack in
  which an attacker spoofs the victim’s IP address and sends a large volume of
  requests to one or more third-party services. The third parties then respond
  to the victim, overwhelming them with traffic.
@@ -27,7 +27,7 @@ Due to source IP spoofing, reflection attacks are extremely difficult to
 
 ## Amplification
 
-An **amplification attack** is a type of reflection attack in which the
+An *amplification attack* is a type of reflection attack in which the
  response data is significantly larger than the initial request. For example,
  a small DNS query of 60 bytes can generate a response of 4 KiB or more,
  resulting in a substantial amount of data being directed at the victim.
