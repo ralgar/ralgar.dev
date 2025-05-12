@@ -9,8 +9,8 @@ tags:
 
 I am *Ryan Algar* - a highly motivated, self-taught programmer and Linux
  sysadmin who specializes in Cloud Native technologies and DevOps methodology.
- While I hold formal education in Network Administration and Cybersecurity, my
- passion for continuous learning has driven me to cultivate much of my
+ While I hold formal education in *Network Administration and Cybersecurity*,
+ my passion for continuous learning has driven me to cultivate much of my
  expertise independently, with a focus on practical, hands-on experience.
 
 I am particularly enthusiastic about automation tools and actively engage in
