@@ -41,7 +41,7 @@ PygmentsStyle = "monokai"
     copyright = false
     author = false
 
-    topText = ["Copyright © 2024 Ryan Algar"]
+    topText = ["Copyright © 2025 Ryan Algar"]
     bottomText = [
       ""
     ]
