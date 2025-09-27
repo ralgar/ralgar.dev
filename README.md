@@ -8,6 +8,7 @@ This repository hosts the source code for my personal IT portfolio static
 
 ### Local build (for development/testing)
 
+1. Clone the repo recursively (we need to pull the theme as well)
 1. [Install Hugo](https://gohugo.io/installation/)
 1. Invoke `hugo serve` to start the dev server
 1. Go to http://localhost:1313 in your browser to view the site
