@@ -11,6 +11,7 @@ FROM caddy:latest AS caddy_dist
 FROM gcr.io/distroless/base-debian12:nonroot AS final
 WORKDIR /srv
 COPY --from=builder /src/public /srv
+COPY ./extra/robots.txt /srv/robots.txt
 COPY --from=caddy_dist /usr/bin/caddy /usr/bin/caddy
 
 USER nonroot:nonroot
